@@ -63,7 +63,7 @@ body{
     }
 }
 
-@media screen and (min-width: 300px) and (max-width:719px) {
+@media screen and (max-width:719px) {
     .wrapper {
         width: 340px;
         height: 610px;
