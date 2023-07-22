@@ -2,7 +2,7 @@ body{
     background-color: hsl(30, 38%, 92%);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 800px) {
     .wrapper {
         width: 600px;
         height: 450px;
@@ -63,7 +63,7 @@ body{
     }
 }
 
-@media screen and (min-width: 300px) and (max-width:1439px) {
+@media screen and (min-width: 300px) and (max-width:799px) {
     .wrapper {
         width: 340px;
         height: 610px;
