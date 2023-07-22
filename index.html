@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
@@ -19,7 +18,10 @@
   <main>
     <div class = "wrapper">
       <div class = "conteiner">
-        <img class = "picture" srcset="./images/image-product-mobile.jpg 300w, ./images/image-product-desktop.jpg 1440w" alt = "#">
+        <picture>
+          <source srcset="./images/image-product-desktop.jpg" media = "(min-width:1440px)">
+          <img src = "./images/image-product-mobile.jpg" alt = "Product picture">
+        </picture>
         <div class = "product">
           <div class = "category">PERFUME</div>
           <div class = "name">Gabrielle Essence Eau De Parfum</div>

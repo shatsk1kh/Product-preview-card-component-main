@@ -18,12 +18,13 @@ body{
         display: flex;
     }
 
-    .conteiner .picture {
-        border-radius: 15px 0 0 15px;
-    }
-
     .product {
         margin-left: 30px;
+    }
+
+    picture img{
+        border-radius: 15px 0 0 15px;
+        width: 300px;
     }
 
     .category {
@@ -77,13 +78,13 @@ body{
         border-radius: 15px;
     }
 
-    .conteiner .picture {
-        border-radius: 15px 15px 0 0;
-        width: 340px;
-    }
-
     .product {
         margin-left: 25px;
+    }
+
+    picture img{
+        border-radius: 15px 15px 0 0;
+        width: 100%;
     }
 
     .category {
