@@ -1,0 +1,177 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+@media screen and (min-width: 1440px) {
+    .wrapper {
+        width: 600px;
+        height: 450px;
+        overflow: hidden;
+        margin: 10% auto;
+    }
+
+    .conteiner {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+    }
+
+    .conteiner .picture {
+        border-radius: 15px 0 0 15px;
+    }
+
+    .product {
+        margin-left: 30px;
+    }
+
+    .category {
+        margin-top: 25px;
+    }
+
+    .name {
+        line-height: 1;
+        margin-top: 25px;
+        padding-right: 15%;
+    }
+    
+    .discription {
+        font-size: 12pt;
+        margin-top: 25px;
+    }
+
+    .cart {
+        height: 50px;
+        width: 235px;
+    }
+
+    .cart img {
+        height: 35%;
+        margin-left: 20%;
+        margin-top: 7%;
+    }
+
+    .add {
+        color: white;
+        font-family: 'Montserrat', 'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 12pt;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width:1439px) {
+    .wrapper {
+        width: 340px;
+        height: 610px;
+        overflow: hidden;
+        margin: 10% auto;
+    }
+
+    .conteiner {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .conteiner .picture {
+        border-radius: 15px 15px 0 0;
+        width: 340px;
+    }
+
+    .product {
+        margin-left: 25px;
+    }
+
+    .category {
+        margin-top: 20px;
+    }
+
+    .name {
+        line-height: 1;
+        margin-top: 15px;
+    }
+
+    .discription {
+        font-size: 12pt;
+        margin-top: 15px;
+    }
+
+    .cart {
+        height: 50px;
+        width: 290px;
+        display: center;
+    }
+
+    .cart img {
+        height: 35%;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    .add {
+        color: white;
+        font-family: 'Montserrat', 'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 12pt;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+}
+
+
+.category {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 8pt;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.5em;
+}
+
+.name {
+    font-family: 'Fraunces', 'Arial', serif;
+    font-weight: 700;
+    font-size: 24pt;
+    color: hsl(212, 21%, 14%);
+}
+
+.discription {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    padding-right: 15%;
+}
+
+.price {
+    display: flex;
+    margin-top: 25px;
+}
+
+.price .sale {
+    font-family: 'Fraunces', 'Arial', serif;
+    font-weight: 700;
+    font-size: 28pt;
+    color: hsl(158, 36%, 37%);
+}
+
+.price .normal {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-top: 12pt;
+    margin-left: 15px;
+}
+
+.cart {
+    background-color: hsl(158, 36%, 37%);
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.cart:hover{
+    box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.1);
+}
